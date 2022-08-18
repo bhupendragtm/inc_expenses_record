@@ -1,7 +1,5 @@
 <?php
 /*
- * Credits - Thulo Technology
- * @Author Bishworaj Poudel 
  * @Version 1.0
  * @Package Database
  * 
