@@ -6,10 +6,10 @@
  * @Package Database
  * 
  */
-$access_key = "thulotechnology";
+$access_key = "myapi";
 $firebase_key = 'AAAAydYXQlo:APA91bH3ens1v_oMdi3dmNDreJvG44fgvZd-goLtZJiD0-XAafyO3648Fzybv65jkw_BS808EBNMsSZ7LgFRhLoLgiF_MX2jjeaxpAx_QFfIMA-GHdF3ceeIF2E1Ec34ikXe8Lxqvi2P';
 
-define('DOMAIN_URL','https://thuloims.com/');
+define('DOMAIN_URL','https://bhupendragtm.com.np/');
 date_default_timezone_set("Asia/Kathmandu");
 class Database{
 	/* 
