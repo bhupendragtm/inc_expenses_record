@@ -1,0 +1,2158 @@
+{
+	"info": {
+		"_postman_id": "d9f4a1af-69c1-4bbe-b2b8-49f41ee33330",
+		"name": "Purchase and Sells Software",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11356610"
+	},
+	"item": [
+		{
+			"name": "add_businesswithuser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "add_businesswithuser",
+							"value": "kdjfksj",
+							"type": "text"
+						},
+						{
+							"key": "b_name",
+							"value": "Thlotechnology Pvt. Ltd",
+							"type": "text"
+						},
+						{
+							"key": "b_phone",
+							"value": "9846756811",
+							"type": "text"
+						},
+						{
+							"key": "b_addedbyip",
+							"value": "192.168.1.145",
+							"type": "text"
+						},
+						{
+							"key": "b_addedbymac",
+							"value": "macmacmac",
+							"type": "text"
+						},
+						{
+							"key": "b_addedbydevid",
+							"value": "dfgsdfgds",
+							"type": "text"
+						},
+						{
+							"key": "b_addedbylocation",
+							"value": "Lat: 28.228444",
+							"type": "text"
+						},
+						{
+							"key": "u_fname",
+							"value": "Bhupendra",
+							"type": "text"
+						},
+						{
+							"key": "u_lname",
+							"value": "Gautam",
+							"type": "text"
+						},
+						{
+							"key": "u_name",
+							"value": "bhupendragtm15111",
+							"type": "text"
+						},
+						{
+							"key": "u_email",
+							"value": "bhupendragtm@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "u_password",
+							"value": "bijaypoudelf",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check_login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "check_login",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "u_name",
+							"value": "iamb",
+							"type": "text"
+						},
+						{
+							"key": "u_password",
+							"value": "7EUJ4aKLOvGkXILNy3x17g==",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_businessdetailbyuid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_businessdetailbyuid",
+							"value": "sdfsfa",
+							"type": "text"
+						},
+						{
+							"key": "u_id",
+							"value": "11",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_business",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "update_business",
+							"value": "asdfasdf",
+							"type": "text"
+						},
+						{
+							"key": "b_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "b_name",
+							"value": "Virtualtechnology PVT. LTD.",
+							"type": "text"
+						},
+						{
+							"key": "b_establishengdate",
+							"value": "2010-1-2",
+							"type": "text"
+						},
+						{
+							"key": "b_regnumber",
+							"value": "123123",
+							"type": "text"
+						},
+						{
+							"key": "b_pan",
+							"value": "6586565231",
+							"type": "text"
+						},
+						{
+							"key": "b_address",
+							"value": "Damside",
+							"type": "text"
+						},
+						{
+							"key": "b_phone",
+							"value": "98465332111",
+							"type": "text"
+						},
+						{
+							"key": "b_email",
+							"value": "Bhupendragtm777@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "b_website",
+							"value": "www.virtualtechnology.com.np",
+							"type": "text"
+						},
+						{
+							"key": "b_numberofstaff",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "b_vat",
+							"value": "13",
+							"type": "text"
+						},
+						{
+							"key": "b_remarks",
+							"value": "...",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_userbybusinessid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_userbybusinessid",
+							"value": "asdfasdfkja",
+							"type": "text"
+						},
+						{
+							"key": "business_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_userbybusiness",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "add_userbybusiness",
+							"value": "djfakd",
+							"type": "text"
+						},
+						{
+							"key": "u_fname",
+							"value": "Bijendra1",
+							"description": "P",
+							"type": "text"
+						},
+						{
+							"key": "u_lname",
+							"value": "Pasi",
+							"type": "text"
+						},
+						{
+							"key": "u_name",
+							"value": "iambirenr",
+							"type": "text"
+						},
+						{
+							"key": "u_password",
+							"value": "12345",
+							"type": "text"
+						},
+						{
+							"key": "u_email",
+							"value": "iambirensrk@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "u_role",
+							"value": "User",
+							"type": "text"
+						},
+						{
+							"key": "u_remarks",
+							"value": "Butwal",
+							"type": "text"
+						},
+						{
+							"key": "business_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "u_contact",
+							"value": "8565656",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "update_user",
+							"value": "skdjfkasj",
+							"type": "text"
+						},
+						{
+							"key": "u_id",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "u_fname",
+							"value": "Biren5",
+							"type": "text"
+						},
+						{
+							"key": "u_lname",
+							"value": "Pasi5",
+							"type": "text"
+						},
+						{
+							"key": "u_name",
+							"value": "hello",
+							"type": "text"
+						},
+						{
+							"key": "u_email",
+							"value": "birensrk",
+							"type": "text"
+						},
+						{
+							"key": "u_status",
+							"value": "Registered",
+							"type": "text"
+						},
+						{
+							"key": "u_role",
+							"value": "Admin",
+							"type": "text"
+						},
+						{
+							"key": "u_contact",
+							"value": "9847528977",
+							"type": "text"
+						},
+						{
+							"key": "u_remarks",
+							"value": "Good",
+							"type": "text"
+						},
+						{
+							"key": "u_password",
+							"value": "1234567",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "aceess_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "update_userpassword",
+							"value": "sajdfksad",
+							"type": "text"
+						},
+						{
+							"key": "new_password",
+							"value": "kas43343443",
+							"type": "text"
+						},
+						{
+							"key": "u_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_salesbydate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_salesbydateandcatagory",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "s_date1",
+							"value": "2020-05-10",
+							"type": "text"
+						},
+						{
+							"key": "s_date2",
+							"value": "2020-06-13",
+							"type": "text"
+						},
+						{
+							"key": "s_userid",
+							"value": "31",
+							"type": "text"
+						},
+						{
+							"key": "s_usercat",
+							"value": "all",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_sales",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "add_sales",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "s_name",
+							"value": "abcdefg",
+							"type": "text"
+						},
+						{
+							"key": "s_phone",
+							"value": "7774878",
+							"type": "text"
+						},
+						{
+							"key": "s_billno",
+							"value": "565656",
+							"type": "text"
+						},
+						{
+							"key": "s_category",
+							"value": "material",
+							"type": "text"
+						},
+						{
+							"key": "s_status",
+							"value": "Sold",
+							"type": "text"
+						},
+						{
+							"key": "s_date",
+							"value": "2020-5-12",
+							"type": "text"
+						},
+						{
+							"key": "s_amount",
+							"value": "5000",
+							"type": "text"
+						},
+						{
+							"key": "s_withoutvatamount",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "s_vatamount",
+							"value": "3000",
+							"type": "text"
+						},
+						{
+							"key": "s_remarks",
+							"value": "Completely Sold",
+							"type": "text"
+						},
+						{
+							"key": "s_userid",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_sales",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "update_sales",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "s_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "s_name",
+							"value": "abcdefg-Updated1",
+							"type": "text"
+						},
+						{
+							"key": "s_phone",
+							"value": "777487841",
+							"type": "text"
+						},
+						{
+							"key": "s_billno",
+							"value": "56565622",
+							"type": "text"
+						},
+						{
+							"key": "s_category",
+							"value": "material",
+							"type": "text"
+						},
+						{
+							"key": "s_status",
+							"value": "Paid",
+							"type": "text"
+						},
+						{
+							"key": "s_date",
+							"value": "2020-5-12",
+							"type": "text"
+						},
+						{
+							"key": "s_amount",
+							"value": "1000",
+							"type": "text"
+						},
+						{
+							"key": "s_vatamount",
+							"value": "3000",
+							"type": "text"
+						},
+						{
+							"key": "s_remarks",
+							"value": "Completely Sold111",
+							"type": "text"
+						},
+						{
+							"key": "s_userid",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "s_username",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_salesbybillno",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_salesbybillno",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "s_billno",
+							"value": "1112",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_salesbybillname",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_salesbybillname",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "s_name",
+							"value": "abcdefg",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_purchasebydate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology8",
+							"type": "text"
+						},
+						{
+							"key": "get_purchasebydate",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "p_date1",
+							"value": "2020-05-11",
+							"type": "text"
+						},
+						{
+							"key": "p_date2",
+							"value": "2020-06-04",
+							"type": "text"
+						},
+						{
+							"key": "p_userid",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "p_usercat",
+							"value": "office",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_purchases",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "add_purchases",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "p_name",
+							"value": "Test 1",
+							"type": "text"
+						},
+						{
+							"key": "p_phone",
+							"value": "7774878",
+							"type": "text"
+						},
+						{
+							"key": "p_billno",
+							"value": "565656",
+							"type": "text"
+						},
+						{
+							"key": "p_category",
+							"value": "Phone3",
+							"type": "text"
+						},
+						{
+							"key": "p_status",
+							"value": "Paid",
+							"type": "text"
+						},
+						{
+							"key": "p_date",
+							"value": "2020-5-29",
+							"type": "text"
+						},
+						{
+							"key": "p_amount",
+							"value": "5000",
+							"type": "text"
+						},
+						{
+							"key": "p_vatamount",
+							"value": "3000",
+							"type": "text"
+						},
+						{
+							"key": "p_remarks",
+							"value": "Completely purchased",
+							"type": "text"
+						},
+						{
+							"key": "p_userid",
+							"value": "63",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_purchases",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "update_purchases",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "p_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "p_name",
+							"value": "purchases_updated",
+							"type": "text"
+						},
+						{
+							"key": "p_phone",
+							"value": "777487841",
+							"type": "text"
+						},
+						{
+							"key": "p_billno",
+							"value": "56565622",
+							"type": "text"
+						},
+						{
+							"key": "p_category",
+							"value": "material",
+							"type": "text"
+						},
+						{
+							"key": "p_status",
+							"value": "Paid",
+							"type": "text"
+						},
+						{
+							"key": "p_date",
+							"value": "2020-5-12",
+							"type": "text"
+						},
+						{
+							"key": "p_amount",
+							"value": "5001",
+							"type": "text"
+						},
+						{
+							"key": "p_vatamount",
+							"value": "300",
+							"type": "text"
+						},
+						{
+							"key": "p_remarks",
+							"value": "Completely Purchased111",
+							"type": "text"
+						},
+						{
+							"key": "p_userid",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_purchasebybillno",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_purchasebybillno",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "s_billno",
+							"value": "1112",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_purchasebybillname",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_purchasebybillname",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "p_name",
+							"value": "a",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_salesofbusinessbydateanduserid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_report",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "s_date1",
+							"value": "2020-05-10",
+							"type": "text"
+						},
+						{
+							"key": "s_date2",
+							"value": "2020-06-13",
+							"type": "text"
+						},
+						{
+							"key": "userid",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_purchsesofbusinessbydateanduserid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_purchsesofbusinessbydateanduserid",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "p_date1",
+							"value": "2020-05-10",
+							"type": "text"
+						},
+						{
+							"key": "p_date2",
+							"value": "2020-6-13",
+							"type": "text"
+						},
+						{
+							"key": "p_userid",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_purchaseofbusinessbydateanduserid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_purchaseofbusinessbydateanduserid",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "p_date1",
+							"value": "2020-05-10",
+							"type": "text"
+						},
+						{
+							"key": "p_date2",
+							"value": "2020-05-13",
+							"type": "text"
+						},
+						{
+							"key": "p_userid",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/test.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"test.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_history",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "add_history",
+							"value": "jdskfskasf",
+							"type": "text"
+						},
+						{
+							"key": "h_body",
+							"value": "Pokhara",
+							"type": "text"
+						},
+						{
+							"key": "h_category",
+							"value": "City",
+							"type": "text"
+						},
+						{
+							"key": "h_isadded",
+							"value": "'0'",
+							"type": "text"
+						},
+						{
+							"key": "h_userid",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_history",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_historybydate",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "h_userid",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "date1",
+							"value": "2020-01-01",
+							"type": "text"
+						},
+						{
+							"key": "date2",
+							"value": "2020-06-25",
+							"type": "text"
+						},
+						{
+							"key": "h_viewstatus",
+							"value": "ALL",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_history",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_history",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "h_userid",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_historybybusiness",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_historybybusiness",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "h_userid",
+							"value": "31",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_historyofbusinessfrombody",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_historyofbusinessfrombody",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "h_body",
+							"value": "a",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php?access_key=thulotechnology&add_businesswithuser=lfkdla&b_name=PG Surgical&b_phone=9856036180&u_fname=Sudip&u_lname=Gautam&u_email=me.gautamsudip@gmail.com&u_password",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology"
+						},
+						{
+							"key": "add_businesswithuser",
+							"value": "lfkdla"
+						},
+						{
+							"key": "b_name",
+							"value": "PG Surgical"
+						},
+						{
+							"key": "b_phone",
+							"value": "9856036180"
+						},
+						{
+							"key": "u_fname",
+							"value": "Sudip"
+						},
+						{
+							"key": "u_lname",
+							"value": "Gautam"
+						},
+						{
+							"key": "u_email",
+							"value": "me.gautamsudip@gmail.com"
+						},
+						{
+							"key": "u_password",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "delete_user",
+							"value": "asdkfja",
+							"type": "text"
+						},
+						{
+							"key": "u_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "u_isdeleted",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_userdetailbyuid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_userdetailbyuid",
+							"value": "jskdk",
+							"type": "text"
+						},
+						{
+							"key": "u_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_salesbydatebybusiness",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_salesbydate",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "s_date1",
+							"value": "2020-4-25",
+							"type": "text"
+						},
+						{
+							"key": "s_date2",
+							"value": "2020-5-25",
+							"type": "text"
+						},
+						{
+							"key": "s_userid",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_salesbyid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_salesbyid",
+							"value": "...",
+							"type": "text"
+						},
+						{
+							"key": "s_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_purchasebyid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_purchasebyid",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "p_id",
+							"value": "11",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_salesbycatrgory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_salesbycategory",
+							"value": "kdfjsk",
+							"type": "text"
+						},
+						{
+							"key": "u_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_report",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology1",
+							"type": "text"
+						},
+						{
+							"key": "get_report",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "s_date1",
+							"value": "2020-05-10",
+							"type": "text"
+						},
+						{
+							"key": "s_date2",
+							"value": "2020--0613",
+							"type": "text"
+						},
+						{
+							"key": "userid",
+							"value": "33",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_purchasebycategory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_purchasebycategory",
+							"value": "jdskfsk",
+							"type": "text"
+						},
+						{
+							"key": "u_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check_username",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "check_username",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "u_name",
+							"value": "iambrp",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_purchasesbycatagory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_purchasesbycatagory",
+							"value": "sdfjks",
+							"type": "text"
+						},
+						{
+							"key": "p_userid",
+							"value": "a",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_salesbycatagory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_salesbycatagory",
+							"value": "sdfjks",
+							"type": "text"
+						},
+						{
+							"key": "s_userid",
+							"value": "a",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_purchasesbycatagoryitems",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_purchasesbycatagoryitems",
+							"value": "sdfs",
+							"type": "text"
+						},
+						{
+							"key": "p_catagory",
+							"value": "Phone",
+							"type": "text"
+						},
+						{
+							"key": "p_userid",
+							"value": "31",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_salesbycatagoryitems",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "get_salesbycatagoryitems",
+							"value": "sdfs",
+							"type": "text"
+						},
+						{
+							"key": "s_catagory",
+							"value": "materail",
+							"type": "text"
+						},
+						{
+							"key": "s_userid",
+							"value": "31",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "change_password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_key",
+							"value": "thulotechnology",
+							"type": "text"
+						},
+						{
+							"key": "change_password",
+							"value": "...",
+							"type": "text"
+						},
+						{
+							"key": "new_password",
+							"value": "Pokhara1",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "43",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/incandexp/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"incandexp",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
